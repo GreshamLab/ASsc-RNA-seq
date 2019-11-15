@@ -1,0 +1,14 @@
+language: python
+python:
+  - 3.6
+install:
+  - sudo apt-get -y update
+  - pip install nose
+  - pip install codecov
+script:
+  - coverage run setup.py test
+after_success:
+  - codecov
+after_failure:
+  - pwd
+  - find .
