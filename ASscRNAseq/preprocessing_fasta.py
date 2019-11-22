@@ -19,4 +19,4 @@ for i in range(len(fasta)):
 for i in range((len(fasta)-1)):
     fasta[i].id = newid[i]
 
-fasta[16].id = 'chrM'
+fasta[16].id = 'chrM' 
