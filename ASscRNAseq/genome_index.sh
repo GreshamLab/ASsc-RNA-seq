@@ -16,7 +16,7 @@ STAR --runThreadN 6 \
 --runMode genomeGenerate \
 --genomeSAindexNbases 10 \
 --genomeDir $SCRATCH/allelespecific/reference \
---genomeFastaFiles $SCRATCH/allelespecific/reference/refwithutr.fasta \
---sjdbGTFfile $SCRATCH/allelespecific/Saccharomyces_cerevisiae.R64-1-1.UTR.gtf \
+--genomeFastaFiles $SCRATCH/allelespecific/reference/updatedidfasta.fasta \
+--sjdbGTFfile $SCRATCH/allelespecific/reference/saccharomyces_cerevisiae_R64-1-1_20110208.gtf \
 --sjdbOverhang 99
 
